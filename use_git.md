@@ -42,7 +42,7 @@ git config --global -l
 - `git branch` to view all branches.
 - `git checkout -b <new branch name>` to create a new branch.
 - `git checkout <branch name>` to switch to another branch.
-
+- `git branch -d <branch name>` to delete a branch.
 
 # addition
 - `git remote -v` '-v' represents verbose.
