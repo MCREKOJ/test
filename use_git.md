@@ -47,5 +47,19 @@ git config --global -l
 - `git checkout <branch name>` to switch to another branch.
 - `git branch -d <branch name>` to delete a branch.
 
+# reset
+roll back to last commit:
+`git reset --hard HEAD` or `git reset --hard HEAD~0`
+
+Roll back to the second to last commit:
+`git reset --hard HEAD^` or `git reset --hard HEAD~1`
+
+Roll back using hash(`git reflog` or `git log`):
+`git reset --hard <commit-hash>`
+
+
+`git reset --soft`：保留工作目录和暂存区的更改。
+`git reset --mixed`：保留工作目录的更改，但清空暂存区。
+
 # addition
 - `git remote -v` '-v' represents verbose.
