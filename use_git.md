@@ -10,8 +10,11 @@ others:
 - `git log` to view commit log
 - `git rm` remove the file in staging area **and directory**
 - `git rm --cached` remove the file in staging area
-- `git restore <file>` to discard changes since last git add.
-- `git restore --staged <file>` **don't understand**
+- `git restore <file>` to discard changes since last add for both Dir and Sta.
+- `git restore --staged <file>` to discard changes since last commit for staging area.
+
+1. Sta=staging area
+2. Dir=directory
 
 
 # set your name and email
