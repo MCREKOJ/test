@@ -58,8 +58,8 @@ Roll back using hash(`git reflog` or `git log`):
 `git reset --hard <commit-hash>`
 
 
-`git reset --soft`：保留工作目录和暂存区的更改。
-`git reset --mixed`：保留工作目录的更改，但清空暂存区。
+- `git reset --soft` to preserve changes for both Dir, Sta.
+- `git reset --mixed` to preserve changes for Dir but empty Sta.
 
 # addition
 - `git remote -v` '-v' represents verbose.
