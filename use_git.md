@@ -41,6 +41,16 @@ git config --global -l
 - creat manually
 - using instruction `touch .gitignore`
 
+## syntax
+```shell
+filename   # ignore a file
+directory/ # ignore a directory
+*.cpp      # * represents any number of characters or no character.
+?          # ? represents a character.
+[abc]      # represents a character of a,b,c.
+!filename  # do not ignore this file. This sentence overrides others.
+```
+
 # branch
 - `git branch` to view all branches.
 - `git checkout -b <new branch name>` to create a new branch.
